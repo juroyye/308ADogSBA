@@ -42,7 +42,13 @@ Insert gif or link to demo
 
 
 ## Screenshots
+![Screenshot (198)](https://github.com/user-attachments/assets/76948714-5619-40af-a017-a0dd864f3b65)
 
+
+![Screenshot (199)](https://github.com/user-attachments/assets/1d0ee2a8-a395-4383-a0f2-b2f8a46308d1)
+
+
+![Screenshot (200)](https://github.com/user-attachments/assets/66ed0d0a-c1b9-4a2a-a93e-6ac99584fea5)
 
 Screenshots
 Below are some screenshots showcasing different breeds and features on the adoption page:
