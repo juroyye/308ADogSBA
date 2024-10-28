@@ -1,0 +1,11 @@
+.cards{
+    height: 600px;
+    width: 300px;   
+    border: solid 1px gray;
+    background-color: darkslategray;
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+}
