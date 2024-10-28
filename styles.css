@@ -3,9 +3,23 @@
     width: 300px;   
     border: solid 1px gray;
     background-color: darkslategray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #main{
     display: flex;
     justify-content: space-around;
+}
+
+body{
+    background: url('/images/nature-back.jpg') no-repeat;
+
+}
+
+img{
+    height: 100px;
+    width: 100px;
 }
