@@ -43,6 +43,8 @@ Insert gif or link to demo
 
 ## Screenshots
 
+
+
 Screenshots
 Below are some screenshots showcasing different breeds and features on the adoption page:
 
@@ -51,6 +53,21 @@ Affenpinscher
 Coton de Tulear
 
 Greyhound
+
+![dogss1](https://github.com/user-attachments/assets/5a6f7df5-b1cf-4431-8735-b22bbf334de0)
+
+
+![ssdog2](https://github.com/user-attachments/assets/41430101-6f3e-4374-8afe-05ca5d7bfe12)
+
+
+
+![ssdog3](https://github.com/user-attachments/assets/4b578b1b-7cef-468a-889d-a22eb4392cba)
+
+
+
+
+
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
