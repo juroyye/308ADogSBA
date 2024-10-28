@@ -1,8 +1,8 @@
 .cards{
-    height: 600px;
+    height: fit-content;
     width: 300px;   
     border: solid 1px gray;
-    background-color: darkslategray;
+    background: rgb(204, 204, 204, 70%);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -15,11 +15,20 @@
 }
 
 body{
-    background: url('/images/nature-back.jpg') no-repeat;
-
+    background: url('/images/nature-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 img{
-    height: 100px;
-    width: 100px;
+    height: 40%;
+    width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#landing{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
 }
