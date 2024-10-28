@@ -5,8 +5,17 @@ const rook = document.getElementById("rook");
 const img1 = document.getElementById('img1')
 const img2 = document.getElementById('img2')
 const img3 = document.getElementById('img3')
+const header1 = document.getElementById('firName')
+const header2 = document.getElementById('secName')
+const header3 = document.getElementById('thirName')
 const dropdown = document.getElementById('categories')
 const next = document.getElementById('next')
+const names = ["Bella", "Max", "Luna", "Charlie", "Lucy", "Cooper", "Daisy", "Milo", "Sadie", "Rocky",
+    "Molly", "Buddy", "Bailey", "Stella", "Bear", "Lola", "Duke", "Roxy", "Teddy", "Zoe",
+    "Lily", "Bentley", "Coco", "Winston", "Nala", "Riley", "Ruby", "Finn", "Gracie", "Zeus",
+    "Willow", "Murphy", "Piper", "Jake", "Loki", "Rosie", "Diesel", "Ginger", "Harley", "Scout",
+    "Lucky", "Millie", "Koda", "Abby", "Remy", "Sammy", "Blue", "Thor", "Moose", "Ranger"]
+
 
 
 async function loadImage() {
@@ -23,6 +32,12 @@ async function loadImage() {
        const breedID = event.target.value
        const response = await axios.get(`${BASE_URL}breed/${breedID}/images`);
        const imgList = response.data.message
+        
+       header1.textContent = 'Adopt'
+       header2.textContent = 'Our'
+       header3.textContent = `${breedID}s`
+
+
 
        let counter = 0 
         img1.setAttribute('src', imgList[counter])
@@ -31,9 +46,18 @@ async function loadImage() {
 
         next.addEventListener('click', ()=> {
 
-            if(counter == 10){
-                next.style.display = 'none';
-            }
+         let num1 = Math.random() * 50
+         let num2 = Math.random() * 50
+         let num3 = Math.random() * 50
+
+
+         header1.textContent = names[Math.floor(num1)]
+         header2.textContent = names[Math.floor(num2)]
+         header3.textContent = names[Math.floor(num3)]
+
+
+
+           
 
             img1.setAttribute('src', imgList[counter++])
             img2.setAttribute('src', imgList[counter++])
